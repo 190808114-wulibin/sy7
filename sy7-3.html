@@ -1,0 +1,122 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>吴丽滨sy7-3</title>
+<head>
+<style>
+	body{
+		background:url("images/zcbg.png") no-repeat; 
+		padding:50px 0 0 860px;
+		margin-right:100px;
+		padding:0;
+	}
+.logo{
+	    width:0;
+		height:0;
+		margin-top:50px;
+		margin-left:90px;
+	}
+p{
+	    font-size:24px;
+		color:#FFF;
+		text-indent:13.5em;
+		font-weight:bold;
+		margin:3px;
+		padding:0;
+}
+h1{
+	    font-size:30px;
+		text-indent:27.5em;
+		color:#FFF;
+		font-weight:bold;
+		margin-left:100px;
+		padding:0;
+}
+	form{
+		width:300px;
+		height:320px;
+		background-color:rgba(237,239,251);
+		padding:30px 40px;
+		border:1px solid #F5EAE8;
+		float:right;
+		border-radius:5px;
+	}
+	input{
+	    background-color:#FFF;
+		margin:0;
+		padding:0;
+	}
+	[type="text"],[type="password"],[type="yanzhengma"]{
+		width:285px;
+		height:37px;
+		border:1px solid #CCC;
+		margin-bottom:30px;
+		font-size:16px;
+		text-indent:50px;
+	}
+	[type="text"]{
+		background:url("images/zczh.png") no-repeat 0 -2px;
+	}
+	[type="password"]{
+		background:url("images/zcmm.png") no-repeat 0 -2px;
+	}
+	[type="yanzhengma"]{
+		background:url("images/zcyz.png") no-repeat 0 -2px;
+	}
+	[type="checkbox"]{
+		display:inline;
+		vertical-align:middle;
+	}
+	label{
+		font-size:12px;
+	}
+	.reg{
+		text-align:center;
+		font-size:14px;
+		padding-left:220px;
+		margin-top:-10px;
+	}
+	.reg a{
+	    color:#666;
+		text-decoration:none;	
+	}
+	.reg a:hover{
+		color:#09F;
+		text-decoration:underline;
+	}
+	[type="button"]{
+		width:285px;
+		height:40px;
+		margin:25px auto;
+		background-image:url("images/zcdl.png");
+		border:none;
+		border-radius:5px;
+	}
+</style>
+</head>
+<body>
+<div class=logo>
+<img src="images/logozc.png" alt="浙传logo">
+</div>
+<p>教务管理系统</p>
+<h1>用户登录</h1>
+<form action="#" method="post" name="form">
+	<input type="text" name="user" placeholder="用户名">
+	<input type="password" name="password" placeholder="填写密码">
+    <input type="yanzhengma" name="yanzhengma" placeholder="验证码">
+	<input type="checkbox" name="account" value="1" id="account">
+	<label for="account">部门</label>
+    <input type="checkbox" name="account" value="1" id="account">
+	<label for="account">教师</label>
+    <input type="checkbox" name="account" value="1" id="account">
+	<label for="account">学生</label>
+    <input type="checkbox" name="account" value="1" id="account">
+	<label for="account">访客</label>
+	<input type="button" name="button">
+    	<div class="reg">
+		<a href="#">忘记密码</a>
+	</div>
+
+</form>
+</body>
